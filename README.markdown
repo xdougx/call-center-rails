@@ -95,7 +95,7 @@ Central
       should put the call in the wait queue
       should have at least one employee in busy status
     selecting a free employee
-      should select an Lider if doesn't any Atendente free
+      should select an Lider if does not any Atendente free
       should select an Antendente if has any one free
       should select an Gerente if doesn't have Antendente and Lider free
     checking if has any call in the wait queue
