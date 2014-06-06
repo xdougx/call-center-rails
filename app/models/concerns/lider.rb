@@ -1,0 +1,2 @@
+class Lider < Funcionario
+end

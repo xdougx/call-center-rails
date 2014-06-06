@@ -1,0 +1,2 @@
+class Gerente < Funcionario
+end

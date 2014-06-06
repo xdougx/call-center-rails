@@ -1,0 +1,23 @@
+default: &default
+  adapter: postgresql
+  encoding: utf8
+  pool: 5
+  username: douglas
+  password:
+  host: localhost
+  port: 5432
+
+development:
+  <<: *default
+  database: call_center_development
+
+
+test:
+  <<: *default
+  database: call_center_test
+
+production:
+  <<: *default
+  database: call_center_production
+  # username: api-homeycook
+  # password: <%= ENV['API-HOMEYCOOK_DATABASE_PASSWORD'] %>
