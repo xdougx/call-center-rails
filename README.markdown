@@ -37,7 +37,7 @@ A solução segue de forma bem simple e direta aonde as responsabilidades foram:
 1. Ser Atendida
 
 ```$ rspec --color --format documentation ```
-
+``` bash
 Exceptions::Model
   building a model exception
     should have a message
@@ -100,6 +100,7 @@ Central
       should select an Gerente if doesn't have Antendente and Lider free
     checking if has any call in the wait queue
       should redirect a call to an Atendente if have any waiting call
+```
 
 Finished in 0.82173 seconds (files took 1.67 seconds to load)
 34 examples, 0 failures
