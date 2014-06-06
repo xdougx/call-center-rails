@@ -102,7 +102,7 @@ Central
       should redirect a call to an Atendente if have any waiting call
 ```
 
-Finished in 0.82173 seconds (files took 1.67 seconds to load)
-34 examples, 0 failures
+```Finished in 0.82173 seconds (files took 1.67 seconds to load)```
+```34 examples, 0 failures```
 
 ========================
