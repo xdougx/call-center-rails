@@ -25,7 +25,8 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.0.0.rc1'
 end
 
-gem 'mocha', :require => false
+gem 'mocha', require: false
+gem 'coveralls', require: false
 
 group :test do
   gem 'rspec-mocks', github: 'rspec/rspec-mocks'
